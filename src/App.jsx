@@ -6,13 +6,18 @@ export default function App() {
     <>
       <Header />
       <section>
-        <div className="container">
-          <h1>bar</h1>
+        <div className="container main">
+          <p>
+            СЛУШАЙ СВОЮ
+            <p>
+              <a>ЛЮБИМУЮ</a> МУЗЫКУ
+            </p>
+          </p>
         </div>
       </section>
       <section>
         <div className="container">
-          <h2>bar</h2>
+          <h2></h2>
         </div>
       </section>
       <section>
