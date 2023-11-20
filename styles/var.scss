@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+$font: #fff;
+$main: #2f2e33;
+$accent: #46008c;
+$accent-button: #67317a;
+
+@mixin border($radius: 15px, $border: 0) {
+    border-radius: $radius;
+    border: $border;
+}

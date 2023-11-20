@@ -1,0 +1,37 @@
+@import "/styles/var.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  color: $font;
+}
+
+html {
+  background-color: $main;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  height: 80px;
+
+  img {
+    height: 18px;
+  }
+
+  button {
+    width: 229px;
+    height: 43px;
+    background: linear-gradient(100deg, $accent -17.87%, $accent-button 138.95%);
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-size: 16px;
+    @include border;
+  }
+}
+
+section {
+  padding: 80px 100px;
+}
