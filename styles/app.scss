@@ -3,9 +3,14 @@
 * {
   margin: 0;
   padding: 0;
+  scrollbar-width: 0;
   box-sizing: border-box;
   font-family: Montserrat;
   color: $font;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
 }
 
 html {
@@ -43,6 +48,10 @@ header {
     .sub {
       background: #232323;
       width: 180px;
+
+      @media (max-width: 815px) {
+        display: none;
+      }
     }
   }
 }
@@ -59,9 +68,10 @@ section {
       font-weight: 600;
       word-wrap: break-word;
 
-      a {
-        background: linear-gradient(100deg, $accent -17.87%, $accent-button 138.95%);
+      .gradient {
+        background: linear-gradient(to right, $title-color, $accent-button);
         background-clip: text;
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
     }

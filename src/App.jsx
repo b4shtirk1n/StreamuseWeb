@@ -10,7 +10,7 @@ export default function App() {
           <p>
             СЛУШАЙ СВОЮ
             <p>
-              <a>ЛЮБИМУЮ</a> МУЗЫКУ
+              <b className="gradient">ЛЮБИМУЮ</b> МУЗЫКУ
             </p>
           </p>
         </div>
